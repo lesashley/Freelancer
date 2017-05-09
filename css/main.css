@@ -1,3 +1,52 @@
-/*
- * Estilos de tu proyecto
- */
+nav{
+  position: fixed;
+  background-color: #2C3E50;
+  width: 100%;
+  height: 100px;
+  padding: 10px 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 15px;
+  padding-right: 10px;
+}
+nav a{
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+}
+nav div:nth-child(1){
+  float: left;
+  display: inline-block;
+  font-size: 2em;
+}
+nav div:nth-child(2){
+  float: right;
+  font-size: 0.9em;
+}
+header{
+  margin-top: 60px;
+}
+.col-12{
+  background-color: #18BC9C;
+  height: 640px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logo{
+  display: block;
+}
+.text{
+  color: #ffffff;
+  font-size: 4em;
+  font-weight: 800;
+}
