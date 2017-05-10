@@ -1,3 +1,4 @@
+/*Nav*/
 nav{
   position: fixed;
   background-color: #2C3E50;
@@ -10,6 +11,7 @@ nav{
   top: 0;
   left: 0;
   right: 0;
+  transition: all 0.4s ease;
 }
 nav ul li{
   list-style: none;
@@ -21,16 +23,29 @@ nav a{
   color: #ffffff;
   text-decoration: none;
   font-weight: 700;
+  transition: all 0.1s ease;
+}
+nav .nav-right a:hover{
+  color:#18BC9C;
 }
 nav div:nth-child(1){
   float: left;
   display: inline-block;
   font-size: 2em;
+  transition: all ease;
 }
 nav div:nth-child(2){
   float: right;
   font-size: 0.9em;
 }
+/*NAV-SIZE*/
+.nav-size{
+  height: 70px;
+}
+.nav-size .nav-left{
+  font-size: 1.3em;
+}
+/*HEADER*/
 header{
   margin-top: 60px;
 }
@@ -67,6 +82,7 @@ header{
   height: 6px;
   align-self: center;
 }
+/*SECTION PORTFOLIO*/
 .portfolio{
   background-color: #ffffff;
   display: flex;
@@ -120,6 +136,7 @@ header{
   width: 361px;
   height: 263px;
 }
+/*SECTION ABOUT*/
 .box-about{
   display: flex;
   background-color: #18BC9C;
@@ -182,7 +199,13 @@ header{
   color: #ffffff;
   padding: 10px;
   align-self: center;
+  transition: all 0.5s ease;
 }
+.btn-download:hover{
+  background-color: #ffffff;
+  color: #18BC9C;
+}
+/*SECTION CONTACT*/
 .box-contact{
   background-color: #ffffff;
   display: flex;
@@ -250,6 +273,11 @@ header{
   font-size: 18px;
   letter-spacing: -0.9px;
 }
+.form button:hover{
+  background-color: #128F76;
+  cursor: pointer;
+}
+/*SECTION FOOTER*/
 .box-footer{
   display: flex;
   justify-content: center;
@@ -285,10 +313,18 @@ header{
   padding-top: 10px;
   font-size: 25px;
   margin: 2px;
+  transition: all 0.4s ease;
+}
+.col-4 .fa:hover{
+  background-color: #ffffff;
+  color:#18BC9C;
 }
 .col-4 a{
   text-decoration: none;
   color: #18BC9C;
+}
+.col-4 .start:hover{
+  text-decoration: underline;
 }
 .footer-below{
   background-color: #233140;
