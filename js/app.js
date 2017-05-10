@@ -11,9 +11,11 @@ window.addEventListener("scroll", function () {
   }
   else{
     nav.classList.remove("nav-size");
-    portfolio.classList.remove("menu-color");
   }
 
+  if (scroll < 620) {
+    portfolio.classList.remove("menu-color");
+  }
   if (scroll > 625) {
     portfolio.classList.add("menu-color");
     about.classList.remove("menu-color");

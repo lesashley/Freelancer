@@ -28,6 +28,7 @@ nav a{
 }
 nav .nav-right a:hover{
   color:#18BC9C;
+
 }
 nav div:nth-child(1){
   float: left;
@@ -96,6 +97,7 @@ header{
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  padding-bottom: 120px;
 }
 .title{
   display: flex;
@@ -132,6 +134,10 @@ header{
   justify-content: center;
   height: 290px;
   flex-direction: row;
+}
+.image:hover{
+  background-color: rgba(24,188,156,.9);
+  cursor: pointer;
 }
 .box-galeria{
   display: flex;
