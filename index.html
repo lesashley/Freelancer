@@ -17,9 +17,9 @@
 			</div>
 			<div class="nav-right">
 				<ul>
-					<li><a href="#portfolio" class="up-case">portfolio</a></li>
-					<li><a href="#about" class="up-case">about</a></li>
-					<li><a href="#contact" class="up-case">contact</a></li>
+					<li><a href="#portfolio" class="up-case" id="port">portfolio</a></li>
+					<li><a href="#about" class="up-case" id="ab">about</a></li>
+					<li><a href="#contact" class="up-case" id="con">contact</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -95,19 +95,23 @@
 						<label for="" class="hidden-label">Name:</label>
 						<input type="text" placeholder="Name" class="cont-input">
 					</div>
+					<li class="error-email">Not a valid name</li>
 					<div class="input-box">
 						<label for="" class="hidden-label">Email Address:</label>
-						<input type="text" placeholder="Email Address" class="cont-input">
+						<input type="email" placeholder="Email Address" class="cont-input">
 					</div>
+					<li class="error-email">Not a valid email address</li>
 					<div class="input-box">
 						<label for="" class="hidden-label">Phone Number:</label>
-						<input type="text" placeholder="Phone Number" class="cont-input">
+						<input type="tel" placeholder="Phone Number" class="cont-input">
 					</div>
+					<li class="error-email">Not a valid phone number</li>
 					<div class="input-box">
 						<label for="" class="hidden-label">Message</label>
 						<textarea name="name" rows="8" cols="80" placeholder="Message" class="cont-input"></textarea>
 					</div>
-					<button type="button" name="button">Send</button>
+					<li class="error-email">Not a valid phone message</li>
+					<button type="submit" class="btn-enviar">Send</button>
 				</form>
 			</article>
 		</section>

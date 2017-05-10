@@ -39,6 +39,11 @@ nav div:nth-child(2){
   float: right;
   font-size: 0.9em;
 }
+.menu-color{
+  background-color: #18BC9C;
+  color: white;
+  padding: 10px;
+}
 /*NAV-SIZE*/
 .nav-size{
   height: 70px;
@@ -246,6 +251,7 @@ header{
   border: 0;
   border-top: 1px solid #eee;
   outline: 0;
+  transition: all 0.5s ease;
 }
 .form textarea{
   border: 0;
@@ -293,7 +299,12 @@ header{
   transition: all 0.9s ease;
   transition: bottom .3s ease,opacity .3s ease
 }
-.cont-input{
+.error-email{
+  display: none;
+  font-size: 1em;
+  color: #919191;
+  margin: 4px 0;
+  list-style:circle;
 }
 /*SECTION FOOTER*/
 .box-footer{
