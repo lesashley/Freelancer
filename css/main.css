@@ -183,3 +183,8 @@ header{
   padding: 10px;
   align-self: center;
 }
+.box-contact{
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
