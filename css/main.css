@@ -12,6 +12,7 @@ nav{
   left: 0;
   right: 0;
   transition: all 0.4s ease;
+  z-index: 1000;
 }
 nav ul li{
   list-style: none;
@@ -276,6 +277,23 @@ header{
 .form button:hover{
   background-color: #128F76;
   cursor: pointer;
+}
+.input-box{
+  font-size: 1.5em;
+  position: relative;
+}
+.hidden-label{
+  display: none;
+  font-size: 0.5em;
+  color: #128F76;
+  font-weight: 500;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.9s ease;
+  transition: bottom .3s ease,opacity .3s ease
+}
+.cont-input{
 }
 /*SECTION FOOTER*/
 .box-footer{
