@@ -34,7 +34,7 @@ nav div:nth-child(2){
 header{
   margin-top: 60px;
 }
-.col-12{
+.portada{
   background-color: #18BC9C;
   height: 640px;
   display: flex;
@@ -42,11 +42,28 @@ header{
   align-items: center;
   flex-direction: column;
 }
+.portada p{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.75em;
+}
 .logo{
   display: block;
 }
 .text{
   color: #ffffff;
-  font-size: 4em;
+  font-size: 4.3em;
   font-weight: 800;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  margin: 20px 0;
+}
+.icons hr{
+  background-color: #fffbff;
+  width: 105px;
+  height: 6px;
+  align-self: center;
 }
